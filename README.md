@@ -1,6 +1,6 @@
 ## [Hi! My name is Yaoyi!](https://express.adobe.com/page/AeW42ihuUwUTD)
 
-![I am here](IMG_4385.jpg)
+![I am here](IMG_4385.JPG)
 
 Currently, I am a 5th year Ph.D. candidate at UCSB computer science department. 
 
