@@ -7,6 +7,10 @@ Currently, I am a 5th year Ph.D. candidate at UCSB computer science department.
 This is my github resources page. If you are looking for my hoempage: [homepage here](https://express.adobe.com/page/AeW42ihuUwUTD).
 
 ## Resources
+### Mitsuba Scenes
+This repo contains several beautiful mitsuba 0.5 rendering scene! Such as: 
+![layeredkitchen](layered_kitchen_GT.png)
+[Repo here:](https://github.com/VElysianP/mitsuba_scenes).
 
 ### Neural Complex Luminaire scene file and mitsuba renderer
 This is the renderer code and scene files for the paper: Neural Complex Luminaires: Representation and Rendering. ACM Transactions on Graphics (Proceedings of SIGGRAPH 2021). 
