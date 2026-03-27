@@ -38,6 +38,10 @@ where achieving SOTA performance often depends on **engineering efficiency on GP
 
 A method for accelerating **BRDF importance sampling** via precomputed and structured representations.
 
+<p align="center">
+  <img src="teaserlayered.png"/>
+</p>
+
 #### ✨ Key Idea
 We propose to **bake BRDF importance distributions** into an efficient representation that can be queried at runtime, significantly reducing the cost of importance sampling in path tracing.
 
@@ -53,6 +57,10 @@ Instead of repeatedly evaluating complex BRDFs during rendering, we:
 - Efficient **GPU-friendly querying mechanism**  
 - Seamless integration with modern **path tracing pipelines**  
 
+#### 🛠️ Keywords
+- Graphics: BRDF importance sampling, neural rendering
+- Methods: neural network, optimal transport 
+
 #### 📄 Status
 Accepted to **Computer Graphics Forum (CGF)** and will be presented at **Eurographics 2026**.  
 
@@ -64,7 +72,11 @@ Accepted to **Computer Graphics Forum (CGF)** and will be presented at **Eurogra
 ### 💡 Neural Complex Luminaires  
 *SIGGRAPH 2021 (ACM TOG)*
 
-This project introduces a **neural representation for complex luminaires**, enabling efficient rendering of challenging light transport scenarios.
+**Main contributor.** This project introduces a neural representation for complex luminaires, enabling efficient rendering of challenging light transport scenarios.
+
+<p align="center">
+  <img src="glass_teaser_equal.png"/>
+</p>
 
 #### ✨ Key Idea
 We replace expensive light transport evaluation with **learned neural approximations**, enabling:
@@ -84,6 +96,12 @@ We train **three neural networks** to handle:
 Complex luminaires (e.g., chandeliers) are difficult to render due to refractive geometry and complex light paths.  
 We compress their light fields into an implicit neural representation that integrates with standard rendering pipelines, achieving high-quality results with significantly reduced cost.
 
+#### 🛠️ Keywords
+- Graphics: complex luminaire, neural rendering, light-field, light transport
+- GPU: GPU pipeline, tensorRT 
+- Methods: neural network 
+
+
 🔗 [Repo](https://github.com/VElysianP/Neural_Complex_Luminaire)  
 📄 [Paper](https://dl.acm.org/doi/abs/10.1145/3450626.3459798)
 
@@ -93,6 +111,10 @@ We compress their light fields into an implicit neural representation that integ
 *EGSR 2024*
 
 A framework for **high-quality appearance interpolation** using optimal transport.
+
+<p align="center">
+  <img src="stitchedresult.png"/>
+</p>
 
 #### ✨ Key Idea
 We avoid expensive runtime OT computation by:
@@ -106,8 +128,10 @@ We avoid expensive runtime OT computation by:
 - Supports **2D / 3D appearance blending**
 - Works directly within rendering pipelines  
 
-#### 📄 Abstract
-We propose a precomputed representation that enables efficient appearance synthesis while preserving the high quality of optimal transport-based interpolation.
+#### 🛠️ Keywords
+- Graphics: appearance synthesis, precomputation
+- Methods: optimal transport, LoD
+
 
 🔗 [Repo](https://github.com/VElysianP/Precomputed-Dynamic-Appearance-Synthesis-and-Rendering)  
 📄 [Paper](https://diglib.eg.org/items/096e395f-7775-4b9d-800f-e4cd71ea7485)  
@@ -137,7 +161,10 @@ Human hair rendering is challenging due to:
 - High computational cost for **global illumination**  
 - Complex **light scattering behavior**  
 
-This project focuses on bridging **visual quality and real-time performance** in game rendering.
+#### 🛠️ Keywords
+- Graphics: real-time rendering, 
+- GPU: OpenGL, GPU   
+- Methods: optimal transport, LoD
 
 
 ---
@@ -176,6 +203,7 @@ An augmented reality (AR) interface system that organizes content as a hierarchy
 
 #### 📄 Context
 Presented at **SIGGRAPH 2020 Appy Hour (University of Pennsylvania)**.
+[Patent](https://patents.google.com/patent/US20220068029A1/en)
 
 --- 
 
@@ -225,14 +253,14 @@ This project introduces **dynamic snow accumulation** on terrain, enhancing visu
 
 #### 🛠️ Keywords
 - Graphics: real-time rendering, terrain rendering, procedural generation  
-- GPU: Vulkan, GPU pipeline, parallel rendering  
+- GPU: Vulkan, GPU pipeline  
 - Methods: Perlin noise, height-based accumulation  
 
 #### 👥 Contributors
 Yaoyi Bai, Yuxin Hu, Dr. Anton Khabbaz  
 
 
-🔗 [GitHub Repo](add link here)
+🔗 [GitHub Repo](https://github.com/HuYuxin/CIS565FinalProjectCesiumSnow)
 
 --- 
 ### 🧬 Magic Offspring: Maya Shape Blending Plugin  
@@ -258,7 +286,6 @@ this project focuses on making advanced geometry processing techniques **accessi
 
 #### 👥 Contributors
 Yaoyi Bai, Yuxin Hu  
-
 
 ---
 
