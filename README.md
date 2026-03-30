@@ -218,7 +218,7 @@ This project explores its use for **appearance synthesis**, serving as an early 
 An augmented reality (AR) interface system that organizes content as a hierarchy of **interactable nested bubbles**, enabling intuitive exploration and interaction in XR environments.
 
 <p align="center">
-  <img src="bubble.png" width="400"/>
+  <img src="bubble.png" width="500"/>
 </p>
 
 #### ✨ Key Contributions
@@ -239,7 +239,7 @@ Presented at **SIGGRAPH 2020 Appy Hour (University of Pennsylvania)**.
 A physics-based simulation project modeling **elastic materials** under freefall and collision using an MPM solver.
 
 <p align="center">
-  <img src="JelloDragonTeaser.PNG" width="400"/>
+  <img src="JelloDragonTeaser.PNG" width="500"/>
 </p>
 
 #### ✨ Key Contributions
