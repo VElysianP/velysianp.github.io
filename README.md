@@ -160,6 +160,8 @@ We avoid expensive runtime OT computation by:
 
 A real-time rendering framework for **efficient and high-quality human hair rendering** using OpenGL.
 
+[![Demo](https://youtu.be/i6PgdDem3UA)](https://youtu.be/i6PgdDem3UA)
+
 #### ✨ Key Contributions
 
 - Implementation of multiple hair models:
@@ -190,6 +192,10 @@ Human hair rendering is challenging due to:
 
 A framework for **appearance synthesis via optimal transport**, enabling natural interpolation across different data modalities.
 
+<p align="center">
+  <img src="houzi2smoke_1M_2000itr_append.PNG" width="500"/>
+</p>
+
 #### ✨ Key Contributions
 
 - Application of **optimal transport (OT)** for appearance synthesis  
@@ -212,7 +218,7 @@ This project explores its use for **appearance synthesis**, serving as an early 
 An augmented reality (AR) interface system that organizes content as a hierarchy of **interactable nested bubbles**, enabling intuitive exploration and interaction in XR environments.
 
 <p align="center">
-  <img src="bubble.PNG" width="400"/>
+  <img src="bubble.png" width="400"/>
 </p>
 
 #### ✨ Key Contributions
