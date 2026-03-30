@@ -160,7 +160,9 @@ We avoid expensive runtime OT computation by:
 
 A real-time rendering framework for **efficient and high-quality human hair rendering** using OpenGL.
 
-[![Demo](https://youtu.be/i6PgdDem3UA)](https://youtu.be/i6PgdDem3UA)
+<p align="center">
+  <img src="https://youtu.be/i6PgdDem3UA" width="500"/>
+</p>
 
 #### ✨ Key Contributions
 
@@ -193,7 +195,7 @@ Human hair rendering is challenging due to:
 A framework for **appearance synthesis via optimal transport**, enabling natural interpolation across different data modalities.
 
 <p align="center">
-  <img src="houzi2smoke_1M_2000itr_append.PNG" width="500"/>
+  <img src="houzi2smoke_1M_2000itr_append.png" width="500"/>
 </p>
 
 #### ✨ Key Contributions
