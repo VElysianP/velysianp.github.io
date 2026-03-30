@@ -7,11 +7,18 @@
 </p> -->
 
 <p align="center">
-  <img src="IMG_4385.JPG" width="400"/>
+  <img src="IMG_4385.JPG" width="300"/>
 </p>
 
 
-🎓 **Ph.D. Candidate**  @ Computer Science @ UC Santa Barbara  
+🎓 **Ph.D. Candidate** in Computer Science  
+University of California, Santa Barbara
+
+🎓 **M.S.E.** in Computer Graphics and Game Technology  
+University of Pennsylvania, under the supervision of the late Prof. Norman Badler, a pioneer in computer graphics and animation
+
+🎓 **B.Eng.** in Computer Science  
+Wuhan University, under the supervision of Prof. Zhiyong Yuan
 
 💡 Focus: **Computer Graphics, Neural Rendering, GPU Acceleration**
 
@@ -84,7 +91,7 @@ Session: *Neural Appearance: Reflectance, Irradiance, and Light Transport*
 **Main contributor.** This project introduces a neural representation for complex luminaires, enabling efficient rendering of challenging light transport scenarios.
 
 <p align="center">
-  <img src="glass_teaser_equal.png"/>
+  <img src="glass_teaser_equal.png" width="500"/>
 </p>
 
 #### ✨ Key Idea
@@ -122,7 +129,7 @@ We compress their light fields into an implicit neural representation that integ
 A framework for **high-quality appearance interpolation** using optimal transport.
 
 <p align="center">
-  <img src="stitchedresult.png"/>
+  <img src="stitchedresult.png" width="500"/>
 </p>
 
 #### ✨ Key Idea
@@ -257,7 +264,9 @@ Dr. Joshuah Wolper, Dr. Ziyin Qu, Yaoyi Bai
 
 A real-time snow rendering system for large-scale terrain visualization, built on **Cesium's terrain engine**.
 
-![demo](https://github.com/HuYuxin/CIS565FinalProjectCesiumSnow/blob/master/image/Demo4.gif)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/HuYuxin/CIS565FinalProjectCesiumSnow/master/image/Demo4.gif" width="500"/>
+</p>
 
 #### ✨ Key Contributions
 
