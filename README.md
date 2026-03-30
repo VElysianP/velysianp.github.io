@@ -161,7 +161,9 @@ We avoid expensive runtime OT computation by:
 A real-time rendering framework for **efficient and high-quality human hair rendering** using OpenGL.
 
 <p align="center">
-  <img src="https://youtu.be/i6PgdDem3UA" width="500"/>
+  <a href="https://www.youtube.com/watch?v=i6PgdDem3UA">
+    <img src="https://img.youtube.com/vi/i6PgdDem3UA/0.jpg" width="500"/>
+  </a>
 </p>
 
 #### ✨ Key Contributions
