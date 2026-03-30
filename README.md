@@ -1,23 +1,19 @@
 # 👋 Hi, I'm Yaoyi!
 
-<p align="center">
+<!-- <p align="center">
   <a href="https://express.adobe.com/page/AeW42ihuUwUTD">
     🌐 Homepage
   </a>
-</p>
+</p> -->
 
 <p align="center">
   <img src="IMG_4385.JPG" width="400"/>
 </p>
 
----
 
-🎓 **Ph.D. Candidate**  
-Computer Science @ UC Santa Barbara  
+🎓 **Ph.D. Candidate**  @ Computer Science @ UC Santa Barbara  
 
 💡 Focus: **Computer Graphics, Neural Rendering, GPU Acceleration**
-
----
 
 ## 🚀 About Me
 
@@ -27,14 +23,25 @@ I work on **neural rendering systems and physically-based rendering**, with a st
 - Neural representations for light transport and appearances
 - Efficient rendering pipelines for production-quality results  
 
-Most of my work sits at the intersection of **graphics + machine learning + systems** —  
-where achieving SOTA performance often depends on **engineering efficiency on GPU**.
+Most of my work sits at the intersection of **graphics + machine learning + systems** —  where achieving SOTA performance often depends on **engineering efficiency on GPU**.
+
+### 🛠️ Technical Skills
+
+**Programming:**  C++, Python, CUDA C++, GLSL, C#, MATLAB  
+
+**GPU & Graphics:**  CUDA, Vulkan, OpenGL  
+
+**ML Systems:**  PyTorch, TensorRT, ONNX  
+
+**Rendering & Tools:**  Mitsuba, PBRT, Unity3D, Unreal Engine, AutoCAD, 3ds Max, Maya
+
+**Profiling & Tooling:**  Nsight, Git, Anaconda  
 
 ---
 
 
-### 🔥 BRDF Importance Baking  
-*Computer Graphics Forum (Accepted) · Eurographics 2026 (Talk)*
+### 🔥 BRDF Importance Baking: A Lightweight Neural Solution to Importance Sampling General Parametric BRDFs 
+*Computer Graphics Forum · Eurographics 2026*
 
 A method for accelerating **BRDF importance sampling** via precomputed and structured representations.
 
@@ -62,14 +69,16 @@ Instead of repeatedly evaluating complex BRDFs during rendering, we:
 - Methods: neural network, optimal transport 
 
 #### 📄 Status
-Accepted to **Computer Graphics Forum (CGF)** and will be presented at **Eurographics 2026**.  
+🎤 **Talk:** May 7, 2026, Thursday · 14:00–15:30 @ RWTH, Aachen, Germany
 
-🎤 [Conference Program (Talk)](https://eg2026.github.io/program/#week_overview)
+Session: *Neural Appearance: Reflectance, Irradiance, and Light Transport*  
+
+🔗 [Conference Program](https://eg2026.github.io/program/#week_overview)
 
 ---
 
 
-### 💡 Neural Complex Luminaires  
+### 💡 Neural Complex Luminaires: Representation and Rendering 
 *SIGGRAPH 2021 (ACM TOG)*
 
 **Main contributor.** This project introduces a neural representation for complex luminaires, enabling efficient rendering of challenging light transport scenarios.
@@ -195,6 +204,10 @@ This project explores its use for **appearance synthesis**, serving as an early 
 
 An augmented reality (AR) interface system that organizes content as a hierarchy of **interactable nested bubbles**, enabling intuitive exploration and interaction in XR environments.
 
+<p align="center">
+  <img src="bubble.PNG" width="400"/>
+</p>
+
 #### ✨ Key Contributions
 
 - A hierarchical **bubble-based UI paradigm** for AR interaction  
@@ -211,6 +224,10 @@ Presented at **SIGGRAPH 2020 Appy Hour (University of Pennsylvania)**.
 *Material Point Method (MPM) Solver*
 
 A physics-based simulation project modeling **elastic materials** under freefall and collision using an MPM solver.
+
+<p align="center">
+  <img src="JelloDragonTeaser.PNG" width="400"/>
+</p>
 
 #### ✨ Key Contributions
 
@@ -239,6 +256,8 @@ Dr. Joshuah Wolper, Dr. Ziyin Qu, Yaoyi Bai
 *Cesium · Vulkan / GPU Rendering*
 
 A real-time snow rendering system for large-scale terrain visualization, built on **Cesium's terrain engine**.
+
+![demo](https://github.com/HuYuxin/CIS565FinalProjectCesiumSnow/blob/master/image/Demo4.gif)
 
 #### ✨ Key Contributions
 
@@ -301,10 +320,3 @@ A collection of high-quality **Mitsuba 0.5 rendering scenes**.
 
 🔗 [GitHub Repo](https://github.com/VElysianP/mitsuba_scenes)
 
----
-
-## 📫 Contact
-
-Feel free to reach out for collaborations, research discussions, or opportunities!
-
-🌐 [Homepage](https://express.adobe.com/page/AeW42ihuUwUTD)
